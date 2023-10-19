@@ -235,6 +235,21 @@ span {
     justify-content: center;
 }
 
+
+.active::after {
+    content: " ";
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #4D5AE5;
+    position: relative;
+    top: 15px;
+
+}
+
+
+
 /* end navigation layout */
 
 /* start body layout */
